@@ -57,11 +57,17 @@ cd inventory-autoflex-backend
 
 
 ### 3. Configurar variáveis de ambiente
+
 quarkus.datasource.db-kind=postgresql
+
 quarkus.datasource.username=<DB_USER>
+
 quarkus.datasource.password=<DB_PASSWORD>
+
 quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/<DB_NAME>
+
 quarkus.http.port=8080
+
 
 
 ### 4. Rodar o backend
